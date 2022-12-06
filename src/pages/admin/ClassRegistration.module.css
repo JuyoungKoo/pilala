@@ -1,0 +1,70 @@
+.classSection{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.classInfoDiv{
+    display: flex;
+    width: 350px;
+}
+
+.classInfoInput {    
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    background-color: white;
+    text-indent: 0.5em;
+}
+
+.classInfoDiv table {
+    width: 100%;
+}
+
+.textAreaStyle {
+    width: 100%;
+    height: 6.25em;
+    border: 1px solid black;
+    border-radius: 10px;
+    resize: none;
+}
+
+.classButtonDiv{
+    display: flex;
+    justify-content: flex-end;
+}
+.classButtonDiv button{
+    margin: 5px;    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 25px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.classImageDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.classImage{
+    margin-top: 5px;
+    width: 80%;
+    height: 90%;    
+}
+
+.classImageButton{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+}
