@@ -49,28 +49,28 @@ function Login() {
     <>
       <div className={LoginCSS.backgroundDiv}>
         <div className={LoginCSS.loginDiv}>
-          <h1>로그인</h1>
+          <h1 className='font-bold text-2xl'>로그인</h1>
           <input
-            className="border-1 border-gray-400"
+            className="border-1 border-gray-400 px-2 text-xs"
             type="text"
             name="memberId"
-            placeholder="아이디"
+            placeholder="아이디를 입력하세요."
             autoComplete="off"
             onChange={onChangeHandler}
           />
           <input
-            className="border-1 border-gray-400"
+            className="border-1 border-gray-400 px-2 text-xs"
             type="password"
             name="memberPassword"
-            placeholder="패스워드"
+            placeholder="패스워드를 입력하세요."
             autoComplete="off"
             onChange={onChangeHandler}
           />
-          <button className="border-1 border-gray-400" onClick={onClickHandler}>
+          <button className="border-1 border-gray-400 px-2 text-xs" onClick={onClickHandler}>
             로그인
           </button>
           <button
-            style={{ border: 'none', margin: 0, fontSize: '10px', height: '10px' }}
+            className='mt-4 text-xs text-blue-300'
             onClick={onClickRegisterHandler}
           >
             회원가입

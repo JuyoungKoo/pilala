@@ -57,7 +57,7 @@ function Header() {
   function BeforeLogin() {
     return (
       <div>
-        <NavLink to="/login">로그인</NavLink> | <NavLink to="/register">회원가입</NavLink>
+        <NavLink className='mx-2' to="/login">로그인</NavLink> | <NavLink className='mx-2' to="/register">회원가입</NavLink>
       </div>
     );
   }
